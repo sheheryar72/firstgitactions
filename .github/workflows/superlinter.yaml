@@ -12,3 +12,5 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: check npm version
+        run: npm -v
