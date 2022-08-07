@@ -2,8 +2,8 @@ name: shell commands
 on: [push]
 jobs: 
  run-shell-commands:
-  run-on: ubuntu-latest
-   steps:
+  runs-on: ubuntu-latest
+  steps:
     - name: echo a string
       run: echo "Sheheryar Izhar"
     - name: check node and npm version
